@@ -37,7 +37,7 @@ mem1 = 1; // pending
 mem2 = 1; // pending
 mem3 = 1; // pending
 mem4 = 1; // done
-mem5 = 0; // pending
+mem5 = 1; // pending
 
 // Example usage: Update logos based on updated member statuses
 updateLogo(mem1, 'memlogo1');
