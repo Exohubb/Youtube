@@ -33,9 +33,9 @@ function logochange(member, memlogo) {
 }
 
 // Update member statuses
-mem1 = 0; // pending
+mem1 = 1; // pending
 mem2 = 9; // pending
-mem3 = 0; // pending
+mem3 = 1; // pending
 mem4 = 9; // done
 mem5 = 9; // pending
 
