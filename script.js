@@ -34,10 +34,10 @@ function logochange(member, memlogo) {
 
 // Update member statuses
 mem1 = 1; // pending
-mem2 = 0; // pending
+mem2 = 1; // pending
 mem3 = 1; // pending
 mem4 = 9; // done
-mem5 = 9; // pending
+mem5 = 0; // pending
 
 // Example usage: Update logos based on updated member statuses
 updateLogo(mem1, 'memlogo1');
