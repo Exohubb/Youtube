@@ -73,6 +73,7 @@ function updateLogo(memberStatus, memlogoClass) {
 // Function to calculate current plan start date and end date
 function calculatePlanDates() {
     var startDate = new Date(); // Assuming start date is today
+    startDate.setDate(10);
 
     // Calculate end date (start date + 28 days)
     var endDate = new Date(startDate.getTime());
@@ -86,7 +87,7 @@ function calculatePlanDates() {
 
 // Function to calculate remaining days until a future date
 function calculateRemainingDays(targetDate) {
-    var today = new Date(10);
+    var today = new Date();
     var timeDiff = targetDate.getTime() - today.getTime();
     var daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24)); // Convert milliseconds to days and round up
     return daysDiff;
