@@ -86,7 +86,7 @@ function calculatePlanDates() {
 
 // Function to calculate remaining days until a future date
 function calculateRemainingDays(targetDate) {
-    var today = new Date();
+    var today = new Date(10);
     var timeDiff = targetDate.getTime() - today.getTime();
     var daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24)); // Convert milliseconds to days and round up
     return daysDiff;
